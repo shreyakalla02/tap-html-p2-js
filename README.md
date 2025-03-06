@@ -1,1 +1,4 @@
-# tap-html-p1-mar6
+# HTML part 1
+
+- Starter files for HTML
+- git clone https://github.com/ckechios/tap-html-starter.git
