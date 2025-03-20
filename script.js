@@ -6,3 +6,10 @@ petdata = {
     "4" : { ill : "3%", costOfTreatment: 400 },
     "5" : { ill : "2%", costOfTreatment: 500 },
 }
+
+/*
+Hints
+document.getElementById("id").value;
+document.getElementById("id").addEventListener("click", function);
+document.addEventListener("DOMContentLoaded", function() {  });
+*/
