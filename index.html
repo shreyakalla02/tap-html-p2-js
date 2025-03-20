@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+
+        .fl {
+            float: left;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body class="tapfont" style="background-color: lightgray;">
+    <nav>
+        <img src="logo.jpg" alt="Logo image" style="margin: auto; display: block;">
+    </nav>
+
+    <h1 style="font-family: Impact;">Premium Calculator</h1>
+    <p style="margin-top: -20px;">Dog Insurance Premium Calculator</p>
+    <hr>
+
+    <form action="process.html" method="get">
+        <!-- Age -->
+        <div class="fl">
+            <label for="age">Age in years:</label>
+            <select name="age" id="agedd">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <!-- Age -->
+
+        <!-- Gender -->
+        <div class="fl">
+            <label for="gender">Gender:</label>
+            <select name="gender" id="genderdd">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select>
+        </div>
+
+        <!-- Breed -->
+        <div class="fl">
+            <label for="breed">Breed:</label>
+            <select name="breed" id="breedd">
+                <option value="1.2">Pedigree</option>
+                <option value="2.3">Cross</option>
+                <option value="0">Mixed</option>
+            </select>
+        </div>
+
+        <div style="clear: both;"><button type="submit">Calculate Premium</button></div>
+    </form>
+    <hr>
+    <script src="script.js"></script>
+</body>
+
+</html>
